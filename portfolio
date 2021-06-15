@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    
+<link rel="stylesheet" href="styles.css">
+<!-- bootstrap icon -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <title>DamarVijis | Portfolio</title>
+    <link rel="icon" href="images/logo.png" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-none fixed-top">
+        <div class="container">
+            <span class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="" width="30" height="30" class="d-inline-block rounded-circle">
+              </span>
+            <span class="navbar-brand mb-0 ms-2 h1 fs-3">Damar Vijis</span>
+          <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-uppercase me-3" href="#jumbotron">Home</a>
+              </li>
+              <li class="nav-item text-uppercase me-3">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item text-uppercase me-3">
+                <a class="nav-link" href="#project">Projects</a>
+              </li>
+              <li class="nav-item text-uppercase me-3">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+   <!-- Akhir Navbar -->
+   <!-- Jumbotron/home -->
+   <section class="jumbotron" id="jumbotron">
+    <div class="container">
+      <div class="px-4 text-center">
+        <h1 class="display-5 pt-4 fw-bolder text-uppercase shadow">Damar Jati Sribantolo</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-2 fw-bold fs-5 shadow">Developer | Designer | Freelancer</p>
+          <p class="fs-1 shadow"> Get work done <span class="fw-bold">faster</span> and <span class="fw-bold">better</span> with me.</p>
+          </div>
+        </div>
+        
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#acacac"
+          fill-opacity="1"
+          d="M0,64L80,85.3C160,107,320,149,480,176C640,203,800,213,960,192C1120,171,1280,117,1360,90.7L1440,64L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+        ></path>
+      </svg>
+   </section>
+  <!-- Akhir Jumbotron/home -->
+  <!-- services -->
+  <div class="container">
+  <section id="services">
+<div class="row container justify-content-center align-content-center">
+  <div class="col-10 services">
+    <div class="row services-title">
+      <div class="col-lg text-center">
+        <h2 class="fs-2 mb-2"> my Services</h2>
+      </div>
+    </div> 
+<div class="row text-center">
+  <div class="col-lg services-content">
+    <i class="bi bi-brush icon float-lg-start"></i>
+    <h4 class="text-lg-start">Design a Web & App</h4>
+    <p class="text-lg-start">Can be requsted.</p>
+  </div>
+  <div class="col-lg services-content">
+    <i class="bi bi-code-slash icon float-lg-start"></i>
+    <h4 class="text-lg-start">Make a Web & App</h4>
+    <p class="text-lg-start">Can be requested.</p>
+  </div>
+  <div class="col-lg services-content">
+    <i class="bi bi-graph-up icon float-lg-start"></i>
+    <h4 class="text-lg-start">Advertising</h4>
+    <p class="text-lg-start">Promote your bussiness.</p>
+  </div>
+</div> 
+  </div>
+</div>
+</section>
+</div>
+   <!-- akhir services -->
+   
+  <!-- about -->
+<section class="about">
+  <div class="container col-xxl-8 ">
+    <div class="row flex-lg-row-reverse align-items-center py-3">
+      <div class="col-lg text-center">
+        <h1 class="text-uppercase fw-bolder px-4" id="about">About Me</h1>
+      </div>
+    </div>
+    <div class="row flex-lg-row-reverse justify-content-lg-center align-items-lg-center g-5 py-1">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="/images/profile.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="500" height="300" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-6 fw-bold lh-sm mb-1">Hi!</h1>
+        <h1 class="display-6 fw-bold lh-sm mb-1">My name is,</h1>
+        <h1 class="display-5 fw-bold lh-sm mb-1">Damar Jati Sribantolo</h1>
+        <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- akhir about -->
+  
+  <!-- project -->
+  <section class="project" id="project">
+    <div class="container col-xxl-8">
+  <div class="row">
+    <div class="col mb-3">
+      <h1 class="project-title text-center text-uppercase fw-bolder">My Projects</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+  <div id="carouselExampleDark" class="carousel carousel-light slide project-button" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner project-content">
+      <div class="carousel-item active" data-bs-interval="5000">
+        <img src="/images/jumbofix.jpg.png" class="d-block w-100" alt="project1">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="fs-2 fw-bold">First slide label</h5>
+          <p class=" fs-5">Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="5000">
+        <img src="/images/jumbotron.jpg" class="d-block w-100" alt="project2">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="fs-3  fw-bold">Second slide label</h5>
+          <p class="fs-5">Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="5000">
+        <img src="/images/jumbotron2.jpg" class="d-block w-100" alt="project3">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="fs-3 fw-bold">Third slide label</h5>
+          <p class="fs-5">Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+</div>
+</div>
+</section>
+  <!-- akhir project -->
+
+  <!-- contact -->
+<section class="contact" id="contact">
+  <div class="container col-xxl-8">
+<div class="row">
+  <div class="col">
+    <h1 class="contact-title text-center text-uppercase fw-bolder">Contact Me</h1>
+  </div>
+</div>
+<div class="row align-content-lg-center">
+  <div class="col-lg-6 left-content">
+<div class="row">
+<div class="col">
+  <h2 class="fw-bold">Get in touch</h2>
+  <p class="mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore et aut assumenda, quidem odio harum ratione laboriosam nihil reprehenderit! Repellendus?</p>
+  
+</div>
+</div>
+<div class="row text-center mt-2">
+  <div class="col">
+    <i class="bi bi-person-fill icon float-lg-start"></i>
+    <h4 class="text-lg-start">Name</h4>
+    <p class="text-lg-start">Damar Jati Sribantolo</p>
+  </div>
+</div>
+<div class="row text-center mt-1">
+  <div class="col">
+    <i class="bi bi-geo-alt-fill icon float-lg-start"></i>
+    <h4 class="text-lg-start">Address</h4>
+    <p class="text-lg-start">Kaliurang Street, Yogyakarta, Indonesia.</p>
+  </div>
+</div>
+<div class="row text-center mt-1 mb-3">
+  <div class="col">
+    <i class="bi bi-envelope-fill icon float-lg-start"></i>
+    <h4 class="text-lg-start">Email</h4>
+    <p class="text-lg-start">damar.j@mail.ugm.ac.id</p>
+  </div>
+</div>
+<div class="mt-2 tombol">
+  <a class="btn btn-secondary me-2 rounded-circle" href="https://www.instagram.com
+  " role="button" target="_blank"><i class="bi bi-instagram"></i></a>
+  <a class="btn btn-secondary mx-2 rounded-circle" href="https://www.facebook.com" role="button" target="_blank"><i class="bi bi-facebook"></i></a>
+  <a class="btn btn-secondary mx-2 rounded-circle" href="https://www.linkedin.com" role="button" target="_blank"><i class="bi bi-linkedin"></i></a>
+  <a class="btn btn-secondary mx-2 rounded-circle" href="https://www.twitter.com" role="button" target="_blank"><i class="bi bi-twitter"></i></a>
+  <a class="btn btn-secondary mx-2 rounded-circle" href="https://github.com
+  " role="button" target="_blank"><i class="bi bi-github"></i></a>
+</div>
+  </div>
+  <div class="col-lg-6">
+<div class="row">
+  <div class="col">
+    <h2 class="fw-bold massage">Massage</h2>
+    <div class="row">
+    <div class="col-lg-6">
+    <div class="form-floating mb-3">
+      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+      <label for="floatingInput">Name</label>
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <div class="form-floating mb-3">
+      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+      <label for="floatingInput">Email address</label>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col">
+<div class="form-floating">
+  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 60px"></textarea>
+  <label for="floatingTextarea2">Subject</label>
+</div>
+</div>
+</div>
+<div class="row pt-3">
+  <div class="col">
+<div class="form-floating">
+  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 178px"></textarea>
+  <label for="floatingTextarea2">Massage..</label>
+</div>
+<div class="col pt-3 tombol2">
+  <button class="btn btn-secondary" type="submit">Send Massage</button>
+</div>
+</div>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+</div>
+</section>
+  <!-- akhir contact -->
+<!-- footer -->
+<footer class="text-center text-light bg-dark">Created by DamarVijis | <i class="bi bi-emoji-smile"></i> 2021 All Rights Reserved.</footer>
+<!-- akhirfooter -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <script>
+      var nav = document.querySelector('nav');
+      window.addEventListener('scroll', function(){
+        if(window.pageYOffset > 30){
+          nav.classList.add('bg-dark','shadow');
+        } else{
+          nav.classList.remove('bg-dark' ,'shadow');
+        }
+      })
+    </script>
+  </body>
+</html>
